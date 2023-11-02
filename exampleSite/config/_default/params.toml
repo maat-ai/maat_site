@@ -6,14 +6,14 @@ logo = "images/logo.svg"
 # use `x` with logo_width, example: "100x"
 logo_width = "240x"
 # logo text will only show when logo is missing.
-logo_text = "Andromeda"
+logo_text = "Maat"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
+author = "Maat"
 image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
 
 # footer information
-footer_info = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat."
+footer_info = "Artificial Intelligence. Due Dilligence"
 
 # contact form action
 contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with https://formspree.io
@@ -25,7 +25,7 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 custom_script = ""
 
 # buy premium popup
-buy_premium_popup = true
+buy_premium_popup = false
 
 # Main Sections
 mainSections = ["blog"]
@@ -35,9 +35,9 @@ reading_time = true
 
 # contact information
 [contact_info]
-address = "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+address = "London"
 phone = ["+704-555-0127", "+205-857-2321", "+002-569-6969"]
-email = ["info@andromeda.io", "smith@anderson.io", "john@anderson.io"]
+email = ["enquiries@maat-ai.uk", "harry@maat-ai.uk", "afspies@maat-ai.uk"]
 
 # imaging processing
 [imaging]
@@ -51,7 +51,7 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "Buy Premium"
 link = "https://gethugothemes.com/products/andromeda/"
 
@@ -64,29 +64,29 @@ button = "I Accept"
 
 # call-to-action
 [cta]
-enable = true
+enable = false
 title = "Get Andromeda-Premium Now"
 content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
 button = "Download The Theme"
 button_link = "https://gethugothemes.com/products/andromeda/"
 
 ############################# social site ########################
-[[social]]
-title = "Andromeda"
-icon = "lab la-facebook-f" # https://icons8.com/line-awesome
-link = "#!"
+#[[social]]
+#title = "Andromeda"
+#icon = "lab la-facebook-f" # https://icons8.com/line-awesome
+#link = "#!"
 
-[[social]]
-title = "AndromedaTweet"
-icon = "lab la-twitter"  # https://icons8.com/line-awesome
-link = "#!"
+#[[social]]
+#title = "AndromedaTweet"
+#icon = "lab la-twitter"  # https://icons8.com/line-awesome
+#link = "#!"
 
-[[social]]
-title = "AndromedaIn"
-icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-link = "#!"
+#[[social]]
+#title = "AndromedaIn"
+#icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
+#link = "#!"
 
-[[social]]
-title = "AndromedaPin"
-icon = "lab la-pinterest" # https://icons8.com/line-awesome
-link = "#!"
+#[[social]]
+#title = "AndromedaPin"
+#icon = "lab la-pinterest" # https://icons8.com/line-awesome
+#link = "#!"
