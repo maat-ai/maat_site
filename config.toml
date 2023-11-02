@@ -11,7 +11,7 @@
 white = "#ffffff"
 black = "#000000"
 light = "#FAFAFA"
-primary_color = "#FE6019"
+primary_color = "#FFB940"
 
 # font variable
 h1 = "48px"
