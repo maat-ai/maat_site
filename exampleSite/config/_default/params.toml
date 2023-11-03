@@ -47,7 +47,8 @@ quality = 100
 # Preloader
 [preloader]
 enable = true
-preloader = "images/loading_spinner.svg" # use jpg, png, svg or gif format.
+preloader = "images/loading_spinner.png" # use jpg, png, svg or gif format.
+#TODO fix svg issue on spinner
 
 # Navigation button
 [navigation_button]
