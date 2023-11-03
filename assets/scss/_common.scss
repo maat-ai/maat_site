@@ -221,15 +221,15 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 15%;
-  width: 15%;
+  height: 200px;
+  width: 200px;
   background-color: $white;
   z-index: 999889898;
   display: flex;
   align-items: center;
   justify-content: center;
   .la-spin {
-    animation: la-spin .5s infinite linear;
+    animation: la-spin .7s infinite linear;
   }
 }
 

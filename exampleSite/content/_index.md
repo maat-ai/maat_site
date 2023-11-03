@@ -1,11 +1,10 @@
 ---
 # banner
 banner:
-  title: "Andromeda is the most intuitive way to prototype Designs"
-  button: "Get Premium Version"
-  button_link: "https://gethugothemes.com/products/andromeda/"
+  title: "Due Dilligence for Industrial Artificial Intelligence Applications"
+  button: "Get in Touch"
+  button_link: "./contact"
   image: "images/banner-app.png"
-
 
 # brands
 brands_carousel:
@@ -17,11 +16,11 @@ brands_carousel:
   - "images/brands/03-colored.png"
   - "images/brands/05-colored.png"
   - "images/brands/06-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/01-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/05-colored.png"
+  # - "images/brands/04-colored.png"
+  # - "images/brands/02-colored.png"
+  # - "images/brands/01-colored.png"
+  # - "images/brands/06-colored.png"
+  # - "images/brands/05-colored.png"
 
 
 # features
