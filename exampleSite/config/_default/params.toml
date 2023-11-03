@@ -47,7 +47,7 @@ quality = 100
 # Preloader
 [preloader]
 enable = true
-preloader = "images/favicon.png" # use jpg, png, svg or gif format.
+preloader = "images/loading_spinner.svg" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
