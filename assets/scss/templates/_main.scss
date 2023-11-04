@@ -1,3 +1,32 @@
+// Animation of squiggles
+/* Define a combined animation for moving and rotating */
+@keyframes moveAndRotate {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+
+  25% {
+    transform: translateX(10px) translateY(-10px) rotate(6deg);
+  }
+
+  50% {
+    transform: translateX(20px) translateY(0) rotate(0);
+  }
+
+  75% {
+    transform: translateX(10px) translateY(10px) rotate(-6deg);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+/* Apply the animation to all .svg-image elements */
+.animated_object {
+  animation: moveAndRotate infinite linear;
+}
+
 // banner style
 .banner {
   position: relative;
@@ -54,14 +83,34 @@
       background-position: top right;
       background-size: 50%;
     }
+    
+  .squiggle {
+      position: absolute;
+      content: "";
+      // height: 8%;
+      // scale: 0.2;
+      // left: 0;
+      // top: 0;
+      // z-index: -1;
+      // filter: adjust-hue($primary-color, 16);
+    }
+    
+    .small_squiggle {
+      scale: 0.4;
+      top: 15%;
+      left: 1%;
+    }
+    .big_squiggle { 
+      scale:0.5;
+    }
 
-    .circle-1 {
+    .obj-1 {
       top: 50px;
       left: 11%;
     }
 
-    .circle-2 {
-      top: 29%;
+    .obj-2 {
+      top: 55%;
       left: 3%;
 
       @include desktop {
@@ -69,12 +118,12 @@
       }
     }
 
-    .circle-3 {
+    .obj-3 {
       top: 45%;
       left: 22%;
     }
 
-    .circle-4 {
+    .obj-4 {
       bottom: 35%;
       left: 15%;
 
@@ -83,7 +132,7 @@
       }
     }
 
-    .circle-5 {
+    .obj-5 {
       bottom: 8%;
       left: 6%;
 
@@ -92,12 +141,12 @@
       }
     }
 
-    .circle-6 {
+    .obj-6 {
       top: 100px;
-      right: 12%;
+      right: 4%;
     }
 
-    .circle-7 {
+    .obj-7 {
       top: 30%;
       right: 2%;
 
@@ -106,12 +155,12 @@
       }
     }
 
-    .circle-8 {
+    .obj-8 {
       top: 52%;
       right: 19%;
     }
 
-    .circle-9 {
+    .obj-9 {
       top: 55%;
       right: 33%;
 
@@ -120,7 +169,7 @@
       }
     }
 
-    .circle-10 {
+    .obj-10 {
       bottom: 20%;
       right: 5%;
 
@@ -162,7 +211,19 @@
       z-index: -1;
     }
 
-    .circle-1 {
+    .squiggle {
+      position: absolute;
+      content: "";
+      // height: 8%;
+      scale: 0.2;
+      // left: 0;
+      // top: 0;
+      z-index: -1;
+      // change stroke of the underlying svg  to page color
+      filter: adjust-hue($primary-color, 16);
+    }
+
+    .obj-1 {
       top: 70px;
       left: 15%;
 
@@ -171,7 +232,7 @@
       }
     }
 
-    .circle-2 {
+    .obj-2 {
       top: 50%;
       left: 3%;
 
@@ -180,7 +241,7 @@
       }
     }
 
-    .circle-3 {
+    .obj-3 {
       bottom: 26%;
       left: 38%;
 
@@ -189,7 +250,7 @@
       }
     }
 
-    .circle-4 {
+    .obj-4 {
       bottom: 19%;
       left: 20%;
 
@@ -198,7 +259,7 @@
       }
     }
 
-    .circle-5 {
+    .obj-5 {
       top: 11%;
       left: 30%;
 
@@ -207,12 +268,12 @@
       }
     }
 
-    .circle-6 {
+    .obj-6 {
       top: 100px;
       right: 12%;
     }
 
-    .circle-7 {
+    .obj-7 {
       top: 58%;
       right: 4%;
 
@@ -221,7 +282,7 @@
       }
     }
 
-    .circle-8 {
+    .obj-8 {
       bottom: 10%;
       right: 33%;
 
@@ -231,12 +292,12 @@
       }
     }
 
-    .circle-9 {
+    .obj-9 {
       top: 48%;
       right: 38%;
     }
 
-    .circle-10 {
+    .obj-10 {
       bottom: 31%;
       right: 20%;
 
@@ -245,7 +306,7 @@
       }
     }
 
-    .circle-11 {
+    .obj-11 {
       top: 15%;
       right: 27%;
     }

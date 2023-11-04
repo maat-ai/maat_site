@@ -8,6 +8,7 @@
 {{ end }}
 {{ end }}
 {{ $scripts := $scripts | append (resources.Get "js/script.js" | minify) }}
+{{ $scripts := $scripts | append (resources.Get "js/banneranimation.js" | minify) }}
 {{ $scripts := $scripts | resources.Concat "/js/script.js" | minify | fingerprint "sha512" }}
 <script crossorigin="anonymous" defer="defer" integrity="{{ $scripts.Data.Integrity }}" type="application/javascript">{{$scripts.Content | safeJS}}</script>
 
@@ -72,3 +73,7 @@
     }
   });
 </script>
+
+
+<!-- Plotting -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
