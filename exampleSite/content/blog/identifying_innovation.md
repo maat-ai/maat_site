@@ -4,7 +4,7 @@ title: "Distinguishing Genuine AI Innovators from 'Wrapper' Companies"
 image: "images/blog/identifying_innovation.png"
 author_info: 
   name: "Harry Coppock"
-  image: "images/author/abdullah.jpg"
+  image: "images/team/harry.jpg"
 draft: false
 ---
 In the burgeoning AI industry, not all companies are created equal. While some are genuine innovators, pushing the boundaries of what's possible, others simply repackage existing solutions under a shiny facade. For investors and stakeholders, distinguishing between the two is crucial. In this article, we delve into the differences between 'wrapper' AI companies and true AI developers.

@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/andromeda-light/site/"
 title = "Maat"
-theme = "andromeda-light"
+theme = "maat_site"
 # post pagination
 paginate = "6"
 # post excerpt

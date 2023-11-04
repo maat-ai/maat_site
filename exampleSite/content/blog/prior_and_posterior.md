@@ -4,7 +4,7 @@ title: "The Crucial Interplay of Prior Beliefs and Posterior Evaluations in AI M
 image: "images/blog/prior_and_posterior.png"
 author_info: 
   name: "Harry Coppock"
-  image: "images/author/abdullah.jpg"
+  image: "images/team/harry.jpg"
 draft: false
 ---
 In the dynamic world of AI mergers and acquisitions (M&A), due diligence is more than a mere technical assessment. It's a journey that begins with an investor's initial perceptions (the prior) and culminates in an evidence-based evaluation (the posterior). This article underscores the significance of contrasting these two stages in the AI M&A due diligence process.
