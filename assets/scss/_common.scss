@@ -228,6 +228,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: scale(0.3);
   .la-spin {
     animation: la-spin .7s infinite linear;
   }
