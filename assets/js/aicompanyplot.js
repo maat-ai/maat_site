@@ -120,6 +120,11 @@ const config = {
     },
     options: {
         animation,
+        autosize: true,
+        // width: 575,
+        // height: 450,
+        responsive: true,
+        maintainAspectRatio: true,
         label: 'New AI Companies',
         interaction: {
             intersect: false

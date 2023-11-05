@@ -104,7 +104,7 @@ const options = {
     },
     autosize: true,
     // width: 575,
-    height: 450,
+    // height: 450,
     responsive: true,
     maintainAspectRatio: true,
 };
