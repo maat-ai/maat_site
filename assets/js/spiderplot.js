@@ -102,11 +102,11 @@ const options = {
             display: false
         }
     },
-    autosize: false,
-    width: 575,
-    height: 575,
-    responsive: false,
-    // maintainAspectRatio: false,
+    autosize: true,
+    // width: 575,
+    height: 450,
+    responsive: true,
+    maintainAspectRatio: true,
 };
 
 
