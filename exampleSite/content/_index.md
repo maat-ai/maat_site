@@ -32,7 +32,7 @@ features:
   features_blocks:
   - icon: "las la-microscope"
     title: "Due Dilligence"
-    content: "AI Duge Dilligence for both small time investments and large scale M&A"
+    content: "AI Due Dilligence for both small time investments and large scale M&A"
   - icon: "las la-chalkboard-teacher"
     title: "Consulting"
     content: "General AI educational and strategy consulting"
