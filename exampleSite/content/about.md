@@ -67,7 +67,7 @@ our_team:
   enable: true
   # subtitle: "Our Team"
   title: "Our Team"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  description: "Maat's team are specialists in various AI areas and have extensive experience working with companies who are looking to apply to AI, or were born out of its uses."
   team:
   - name: "Harry Coppock"
     image: "images/team/harry.jpg"
