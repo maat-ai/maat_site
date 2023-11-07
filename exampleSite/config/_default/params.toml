@@ -13,7 +13,7 @@ author = "Maat"
 image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
 
 # footer information
-footer_info = "Artificial Intelligence. Due Dilligence."
+footer_info = "Artificial Intelligence. Due Diligence."
 
 # contact form action
 contact_form_action = "https://formspree.io/f/xqkvjpzw" # contact form works with https://formspree.io

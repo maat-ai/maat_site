@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "Due Dilligence for Industrial Artificial Intelligence Applications"
+  title: "Due Diligence for Industrial Artificial Intelligence Applications"
   button: "Get in Touch"
   button_link: "./contact"
   # image: "images/banner-app.png"
@@ -31,8 +31,8 @@ features:
   description: "At Maat we have developed a palette of experimental and procedural techniques for evaluating AI technology. Our evidence-based evaluations, combined with our expert experience, provide invaluable insights into the quality of AI offered by a company, enabling you to make informed investment decisions and giving you an edge over the competition."
   features_blocks:
   - icon: "las la-microscope"
-    title: "Due Dilligence"
-    content: "AI Due Dilligence for both small time investments and large scale M&A"
+    title: "Due Diligence"
+    content: "AI Due Diligence for both small time investments and large scale M&A"
   - icon: "las la-chalkboard-teacher"
     title: "Consulting"
     content: "General AI educational and strategy consulting"
@@ -61,7 +61,7 @@ how_it_works:
     canvas_script: "js/aicompanyplot.js"
     alt_text: "Radar Plot of Maat's Evaluation Criteria"
 
-  - subtitle: "Due Dilligence"
+  - subtitle: "Due Diligence"
     title: "Evaluating Companies' AI Practices and Potential"
     description: "We make use of a range of published and current trade secret techniques developed at Maat to assess the quality of AI. These span five main areas: Experimental Setting, AI Models, Expertise and Code Base."
     canvas_tag: "spiderPlot"
