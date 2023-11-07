@@ -65,8 +65,8 @@ related achievements (published papers, companies and degrees)."
 # our team
 our_team:
   enable: true
-  subtitle: "Our Team"
-  title: "The People Behind"
+  # subtitle: "Our Team"
+  title: "Our Team"
   description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
   team:
   - name: "Harry Coppock"
