@@ -1,7 +1,7 @@
 ---
 date: "2023-09-23"
 title: "Distinguishing Genuine AI Innovators from 'Wrapper' Companies"
-image: "images/blog/identifying_innovation.png"
+image: "images/blog/identifying_innovation.jpg"
 author_info: 
   name: "Harry Coppock"
   image: "images/team/harry.jpg"

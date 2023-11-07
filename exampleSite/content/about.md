@@ -28,7 +28,7 @@ what_we_do:
     content: "As with any company, the people are just as important and often more important than the product that they have created.  The main objective is to assess their level of AI understanding, along with their AI engineering competence. This is achieved through a rigorous  interview process and also conducting our own investigation into their past AI
 related achievements (published papers, companies and degrees)."
     
-  - title: "Plausibility of Signal"
+  - title: "Signal Strength"
     content: "It is vital that there is a plausible true signal for the task at hand,as regardless AI will likely find a confounder in the dataset to leverage to yield good results. We check for scientific evidence which demonstrates the presence of a signal and present the referenced findings"
   
   - title: "Code Base"
@@ -72,12 +72,12 @@ our_team:
   - name: "Harry Coppock"
     image: "images/team/harry.jpg"
     designation: "CEO"
-  - name: "Harry Coppock"
-    image: "images/team/harry.jpg"
-    designation: "Product"
-  - name: "Harry Coppock"
-    image: "images/team/harry.jpg"
-    designation: "Engineering"
+  - name: "Alex Spies"
+    image: "images/team/alex.png"
+    designation: "Consultant"
+  # - name: "Harry Coppock"
+  #   image: "images/team/harry.jpg"
+  #   designation: "Engineering"
 
 
 # # our office

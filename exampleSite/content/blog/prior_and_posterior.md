@@ -1,7 +1,7 @@
 ---
 date: "2023-11-03"
 title: "The Crucial Interplay of Prior Beliefs and Posterior Evaluations in AI M&A Due Diligence"
-image: "images/blog/prior_and_posterior.png"
+image: "images/blog/prior_and_posterior.jpg"
 author_info: 
   name: "Harry Coppock"
   image: "images/team/harry.jpg"
