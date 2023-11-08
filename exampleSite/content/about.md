@@ -67,7 +67,7 @@ our_team:
   enable: true
   # subtitle: "Our Team"
   title: "Our Team"
-  description: "Maat's team are specialists in various AI areas and have extensive experience working with companies who are looking to apply to AI, or were born out of its uses."
+  description: "At Maat, we boast a team of world-leading AI researchers, specialising in AI evaluation, offering unparalleled expertise in this dynamic field. Our experience extends to collaborating with a wide range of companies, whether they are newcomers to AI or have been leveraging it for some time, ensuring they utilise AI to its fullest potential."
   team:
   - name: "Harry Coppock"
     image: "images/team/harry.jpg"
