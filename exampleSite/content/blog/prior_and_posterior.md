@@ -7,7 +7,7 @@ author_info:
   image: "images/team/harry.jpg"
 draft: false
 ---
-In the dynamic world of AI mergers and acquisitions (M&A), due diligence is more than a mere technical assessment. It's a journey that begins with an investor's initial perceptions (the prior) and culminates in an evidence-based evaluation (the posterior). This article underscores the significance of contrasting these two stages in the AI M&A due diligence process.
+In the dynamic world of AI mergers and acquisitions (M&A), due diligence is more than a mere technical assessment. It's a journey that begins with an investor's initial perceptions (the prior) and culminates in an evidence-based evaluation (the posterior). This article underscores the significance of contrasting these two stages in the AI M\&A due diligence process.
 
 **The Prior:** Initial Perceptions and Investment Interest:
 Every M&A journey starts with an initial interest. This "prior" belief is shaped by:

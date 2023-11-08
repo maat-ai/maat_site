@@ -14,7 +14,8 @@
   </a>
   <div class="card-body card-img-overlay">
     <h3 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-    <p>{{ .Plain | truncate 120 }}< /p>
+   
+    <p>{{ .Content |  truncate 200 | safeHTML }}</p>
   <!-- </div> -->
     <!-- <div class="card-footer bg-transparent border-top-0 "> -->
     <div class="card-author">

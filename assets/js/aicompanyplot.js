@@ -126,7 +126,7 @@ const config = {
         autosize: true,
         // width: 575,
         // height: 450,
-        responsive: true,
+        responsive: false,
         maintainAspectRatio: true,
         label: 'New AI Companies',
         interaction: {
@@ -283,3 +283,4 @@ document.addEventListener('DOMContentLoaded', function () {
     // Start observing the canvas element
     observer.observe(ctx.canvas);
 });
+
