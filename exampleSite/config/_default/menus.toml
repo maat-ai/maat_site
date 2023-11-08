@@ -48,12 +48,12 @@ name = "Blog"
 url = "blog/"
 weight = 2
 
-[[footer]]
-name = "Blog Details"
-url = "blog/post-1/"
-weight = 3
+#[[footer]]
+#name = "Blog Details"
+#url = "blog/post-1/"
+#weight = 3
 
-[[footer]]
-name = "Terms & Conditions"
-url = "terms-and-conditions/"
-weight = 4
+#[[footer]]
+#name = "Terms & Conditions"
+#url = "terms-and-conditions/"
+#weight = 4
