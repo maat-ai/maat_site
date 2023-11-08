@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "Due Diligence for Industrial Artificial Intelligence Applications"
+  title: "Due Diligence for Artificial Intelligence"
   button: "Get in Touch"
   button_link: "./contact"
   # image: "images/banner-app.png"
