@@ -1,22 +1,22 @@
 <article class="card blog-card">
-  <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+  <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="position-relative">
     {{ with .Params.image }}
     {{ if fileExists (add `assets/` .) }}
     {{$img:= resources.Get . }}
     {{$img:= $img.Resize "570x "}}
     {{$imgWebp:= $img.Resize "570x webp"}}
-    <img loading="lazy" decoding="async" class="card-img-top h-auto" width="{{$img.Width}}" height="{{$img.Height}}"
+    <img loading="lazy" decoding="async" class="card-img-top" width="{{$img.Width}}" height="{{$img.Height}}"
       src="{{$imgWebp.RelPermalink}}" alt="blog-post" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
     {{else}}
     <img class="img-fluid" src="https://via.placeholder.com/570x380.png/eee/eee" alt="image-fallback">
     {{end}}
     {{end}}
   </a>
-  <div class="card-body">
+  <div class="card-body card-img-overlay">
     <h3 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-    <p>{{ .Plain | truncate 120 }}</p>
-  </div>
-  <div class="card-footer bg-transparent border-top-0">
+    <p>{{ .Plain | truncate 120 }}< /p>
+  <!-- </div> -->
+    <!-- <div class="card-footer bg-transparent border-top-0 "> -->
     <div class="card-author">
       <div class="d-flex align-items-center">
         {{ with .Params.author_info }}

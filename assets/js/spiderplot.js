@@ -33,7 +33,7 @@ const dataSets = [
 
 
 const data = {
-    labels: ['AI Model', 'Pipelines', 'Signal Strength', 'Expertise', 'Code Base'],
+    labels: ['AI Model', 'Experimental Setting', 'Signal Strength', 'People', 'Code Base'],
     datasets: [
         {
             label: 'Values',
@@ -75,6 +75,21 @@ const options = {
                 font: {
                     size: 20, // adjust size as needed
                     family: 'Poppins'
+                },
+                callback: function (value, index, values) {
+                    // Split the label into words
+                    const words = value.split(' ');
+                    // Determine the number of words per line
+                    const wordsPerLine = Math.ceil(words.length / 2);
+                    // Wrap the label into multiple lines
+                    return words.reduce((acc, word, i) => {
+                        const lineIndex = Math.floor(i / wordsPerLine);
+                        if (!acc[lineIndex]) {
+                            acc[lineIndex] = [];
+                        }
+                        acc[lineIndex].push(word);
+                        return acc;
+                    }, []).map(line => line.join(' '));
                 }
             },
             // grid: {
@@ -142,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Index of the current data set
-    let index = 0;
+    let index = 1;
 
     // Update the data and color every 5 seconds
     setInterval(() => {

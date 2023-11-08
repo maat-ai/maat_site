@@ -1,8 +1,8 @@
 
 // from 2013 to 2022
-const legal_cases = [8, 12, 21, 17, 30, 35, 64, 92, 101, 121]
-const new_companies = [495, 568, 572, 712, 983, 1234, 1197, 1289, 1669, 2000]
-// Last point is 1392 but we extrapolate to 2000, similarly for legal cases
+const legal_cases = [8, 12, 21, 17, 30, 35, 64, 92, 101, 130.8]
+const new_companies = [495, 568, 572, 712, 983, 1234, 1197, 1289, 1669, 2161]
+// Last point is 1392 but we extrapolate with factor 1.29 similarly for legal cases
 
 // const data = [];
 // const data2 = [];
@@ -103,19 +103,22 @@ for (let i = 0; i < 10; i++) {
 const config = {
     type: 'line',
     data: {
-        datasets: [{
-            label: 'AI Legal Cases',
-            borderColor: color_blue,
-            borderWidth: 5,
-            radius: 0,
-            data: legal_data,
-        },
+        datasets: [
         {
             label: 'New AI Companies',
             borderColor: color_yellow,
             borderWidth: 5,
             radius: 0,
             data: company_data,
+            yAxisID: 'y-axis-companies',
+        },
+        {
+            label: 'AI Legal Cases',
+            borderColor: color_blue,
+            borderWidth: 5,
+            radius: 0,
+            data: legal_data,
+            yAxisID: 'y-axis-legal',
         }]
     },
     options: {
@@ -130,6 +133,15 @@ const config = {
             intersect: false
         },
         plugins: {
+            subtitle: {
+                display: true,
+                text: 'Data taken from the AI Index Report 2023 with extrapolation',
+                font: { size: 12 }, // You can adjust the size and the style of the font
+                color: 'gray', // Adjust the color as needed
+                position: 'bottom', // Position the subtitle at the bottom
+                padding: { bottom: 10 } // Add some padding to move it away from the chart area
+                
+            },
             legend: {
                 display: true,
                 labels: {
@@ -175,7 +187,7 @@ const config = {
                         return year_dict[value].toString(); // Return the value to be displayed as the tick label
                     },
                     font: {
-                        size: 16, // Specify the font size for ticks
+                        size: 14, // Specify the font size for ticks
                         family: 'Poppins' // Specify the font family for ticks
                     },
 
@@ -186,22 +198,56 @@ const config = {
                         enabled: true // Enable major ticks
                     }
                 },
-
+                
             },
             y: {
+                display: false,
+            },
+                // type: 'linear',
+                // ticks: {
+                    // font: {
+                    //     size: 16, // Specify the font size for ticks
+                    //     family: 'Poppins' // Specify the font family for ticks
+                    // },
+                //     // Additional styles if needed
+                //     color: '#5A5A5A', // Tick labels' text color
+                //     major: {
+                //         enabled: true // Enable major ticks
+                //     }
+                // },
+            'y-axis-legal': {
                 type: 'linear',
+                position: 'right', // Position it on the left
+                ticks: {
+                    // ... [tick configuration]
+                    font: {
+                        size: 16, // Specify the font size for ticks
+                        family: 'Poppins' // Specify the font family for ticks
+                    },
+                    color: color_blue, // Color the ticks to match the dataset
+                },
+                grid: {
+                    drawOnChartArea: false, // Only draw grid for the right y-axis
+                },
+                suggestedMin: 0,
+            },
+            'y-axis-companies': {
+                type: 'linear',
+                position: 'left', // Position it on the right
                 ticks: {
                     font: {
                         size: 16, // Specify the font size for ticks
                         family: 'Poppins' // Specify the font family for ticks
                     },
-                    // Additional styles if needed
-                    color: '#5A5A5A', // Tick labels' text color
-                    major: {
-                        enabled: true // Enable major ticks
-                    }
+                    // ... [tick configuration]
+                    color: color_yellow, // Color the ticks to match the dataset
                 },
-            }
+                grid: {
+                    drawOnChartArea: true, // Draw grid for this y-axis
+                },
+                suggestedMin: 0,
+            },
+            
         }
     }
 };
@@ -231,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Create the Intersection Observer instance
     const observer = new IntersectionObserver(onIntersect, {
         root: null, // relative to the viewport
-        threshold: 0.5, // trigger when at least 50% of the canvas is visible
+        threshold: 0.3, // trigger when at least 50% of the canvas is visible
     });
 
     // Start observing the canvas element

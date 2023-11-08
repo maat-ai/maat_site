@@ -1,3 +1,14 @@
+.center-div {
+  margin: auto;
+  /* Centers the div horizontally */
+  min-width: 30rem;
+  /* Minimum width */
+  max-width: 80%;
+  /* Maximum width */
+  width: 100%;
+  /* Responsive width */
+}
+
 // Animation of squiggles
 /* Define a combined animation for moving and rotating */
 @keyframes moveAndRotate {
@@ -407,7 +418,7 @@
     width: calc(100% - 70px);
     top: 45px;
     left: 45px;
-    background: #fe6019;
+    background: #FFb940;
     z-index: -1;
     border-radius: 50%;
     opacity: .15;
@@ -974,14 +985,34 @@
   margin-top: 30px;
   height: calc(100% - 30px);
 
+  .card-img-top {
+    width: 100%;
+    height: 250px;
+
+    @include mobile {
+      height: 350px;
+    }
+    /* Fixed height to "crop" the image */
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    // transform the image to be less bright
+    filter: contrast(0.85) brightness(0.95);
+  }
+
   .card-body {
+    position: relative;
+    z-index: 2;
+    /* Ensures the text appears above the image */
+    background: inherit;
+    /* Use the card's background */
     padding: 35px 30px 10px;
+    /* Your previous padding, uncommented */
   }
 
   .card-footer {
     padding: 0 30px 35px;
   }
-
   .card-title,
   .card-title a {
     color: lighten($black, 13.33);
