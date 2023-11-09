@@ -37,7 +37,7 @@ reading_time = true
 [contact_info]
 address = "London"
 phone = []#"+704-555-0127", "+205-857-2321", "+002-569-6969"]
-email = ["enquiries@maat-ai.uk", "harry@maat-ai.uk", "afspies@maat-ai.uk"]
+email = ["contact@maat-ai.uk", "harry@maat-ai.uk", "afspies@maat-ai.uk"]
 
 # imaging processing
 [imaging]
